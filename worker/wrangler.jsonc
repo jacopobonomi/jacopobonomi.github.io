@@ -1,0 +1,14 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "bughunt-leaderboard",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-11-01",
+	"durable_objects": {
+		"bindings": [{ "name": "LEADERBOARD", "class_name": "Leaderboard" }]
+	},
+	"migrations": [{ "tag": "v1", "new_sqlite_classes": ["Leaderboard"] }],
+	"vars": {
+		// comma separated; localhost is always allowed for development
+		"ALLOWED_ORIGINS": "https://jacopobonomi.github.io"
+	}
+}

@@ -4,7 +4,6 @@ node_modules/*
 dist
 build
 test-results/
-package-lock.json
 yarn.lock
 /packages/create-svelte/template/CHANGELOG.md
 /packages/kit/src/packaging/test/watch/package
@@ -18,3 +17,6 @@ yarn.lock
 .turbo
 .svelte-kit/*
 build
+# Cloudflare worker
+.wrangler
+.dev.vars
