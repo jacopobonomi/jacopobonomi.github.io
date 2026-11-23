@@ -28,7 +28,7 @@ jobs:
       - name: Publish build to gh-pages
         run: >
           npx gh-pages -d build --dotfiles --nojekyll
-          -u "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+          -u "github-actions <github-actions@github.com>"
           -r "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
