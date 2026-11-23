@@ -1,0 +1,1 @@
+import{b as e,h as t,k as n,x as r}from"../chunks/C15Cb4ra.js";var i=Object.defineProperty,a=((e,t)=>{let n={};for(var r in e)i(n,r,{get:e[r],enumerable:!0});return t||i(n,Symbol.toStringTag,{value:`Module`}),n})({prerender:()=>!0});function o(i,a){var o=r(),s=n(o);t(s,()=>a.children),e(i,o)}export{o as component,a as universal};
